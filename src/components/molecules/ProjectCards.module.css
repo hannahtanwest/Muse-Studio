@@ -1,0 +1,66 @@
+.main{
+    margin-top: 50vh;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+}
+
+.section{
+    height: 70vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+    background-color: #f1f1f1;
+    border-radius: 50px;
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, .2);
+    align-items: center;
+    text-decoration: none;
+}
+
+.headline{
+    font-family: monospace;
+    font-size: 45px;
+    margin: 0 0 0 50px;
+    width: 100%;
+    color: #fff;
+}
+
+.projectImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.p{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.pCursive{
+    font-family: monospace;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+/* mobile css */
+
+@media screen and (max-width: 750px) {
+    
+    .headline{
+        font-size: 30px;
+        text-align: center;
+        margin: 0 50px;
+    }
+
+
+}

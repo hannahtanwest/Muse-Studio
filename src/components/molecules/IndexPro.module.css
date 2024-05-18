@@ -1,0 +1,45 @@
+
+
+.img{
+    width: 200px;
+}
+
+.headline{
+    font-family: monospace;
+    margin: 0;
+    font-size: 24px;
+}
+
+.navLink{
+    text-decoration: none;
+    font-family: monospace;
+    color: #CA2020;
+    font-size: 20px;
+}
+
+.arrowIcon{
+    transform: rotate(45deg);
+    width: 25px;
+    height: 25px;
+    margin-bottom: -7px;
+}
+
+@media screen and (max-width: 750px) {
+    
+    .img{
+        width: 300px;
+        margin-top: 30px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navLink, .headline{
+        text-align: center;
+    }
+
+
+}

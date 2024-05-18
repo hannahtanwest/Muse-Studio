@@ -1,0 +1,126 @@
+.main{
+    margin-top: 50vh;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+}
+
+.section{
+    height: 70vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+    background-color: #f1f1f1;
+    border-radius: 50px;
+    padding: 50px;
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, .2);
+    align-items: center;
+}
+
+.ourJobInfo{
+    font-family: monospace;
+    font-size: 45px;
+    margin: 0 0 0 50px;
+    width: 50%;
+}
+
+.headline{
+    font-family: monospace;
+    font-size: 45px;
+    width: 50%;
+}
+
+.rightSide{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.projectImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.p{
+    font-family: monospace;
+    font-size: 16px;
+    width: 90%;
+}
+
+.pCursive{
+    font-family: monospace;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.categories{
+    display: flex;
+    flex-direction: row;
+}
+
+.category{
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 0 20px;
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+
+@media screen and (max-width:750px) {
+    .cardContainer {
+        height: auto;
+        top: auto;
+    }
+    
+    .section {
+        height: auto;
+        padding: 20px;
+        width: 90vw;
+        overflow-y: auto;
+        flex-direction: column;
+    }
+
+    .ourJobInfo{
+        width: 100%;
+    }
+
+    .headline{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .rightSide{
+        width: 100%;
+    }
+
+    .p{
+        font-size: 16px;
+    }
+
+    .categories{
+        flex-wrap: wrap;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .category{
+        font-size: 16px;
+        padding: auto;
+        margin-top: 0;
+    }
+
+    .img{
+        width: 200%;
+        height: 200%;
+    }
+}

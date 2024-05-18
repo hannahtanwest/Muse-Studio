@@ -1,0 +1,81 @@
+.container{
+    background-color: #f1f1f1;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+.input{
+    margin-bottom: 20px;
+    width: 80%;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.textInput{
+    width: 100%;
+    height: 80%;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.cardHeadline{
+    width: 100%;
+}
+
+.headline{
+    width: 100%;
+    font-family: monospace;
+    font-size: 45px;
+
+}
+
+.info{
+    width: 50%; 
+}
+
+.request{
+    width: 50%;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none
+}
+
+.buttonText{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: monospace;
+    color: #cc2020;
+}
+
+.arrowIcon{
+    transform: rotate(45deg);
+    width: 25px;
+    height: 25px;
+    margin-bottom: -3px;
+    margin-left: 5px;
+    color: #cc2020;
+}
+
+@media screen and (max-width: 750px) {
+
+    .container{
+        margin: 25px;
+    }
+
+    .input, .info, .request, .textInput{
+        width: 100%;
+    }
+
+    .headline{
+        font-size: 30px;
+    }
+
+}

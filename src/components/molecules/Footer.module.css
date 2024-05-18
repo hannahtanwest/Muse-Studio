@@ -1,0 +1,123 @@
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px 0 0 0;
+    background-color: #f1f1f1;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
+    width: 100%;
+    height: 12rem;
+}
+
+.footerLeft{
+    display: flex;
+    flex-direction: column;
+    width: 50%;    
+    justify-content: flex-end;
+}
+
+
+.footerLinks{
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: 600;
+    color: black;
+    margin-right: 50px;
+    font-size: 1.5rem;
+    color: #CA2020;
+}
+
+.arrowIcon{
+    transform: rotate(45deg);
+    width: 35px;
+    height: 35px;
+    margin-bottom: -7px;
+    color: #CA2020;
+}
+
+.icon{
+    width: 45px;
+    height: 45px;
+    color: #CA2020;
+    margin-left: 20px;
+}
+
+.footerInfo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-align: right;
+    font-weight: 600;
+    justify-content: flex-end;
+}
+
+.footerInfo p{
+    margin: 0;
+    color: #CA2020;
+}
+
+/* logo loop carousel */
+
+@keyframes carousel {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.carousel{
+    margin-top: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.footerLogoCarousel{
+    display: inline-block;
+    /* Adjust duration according to the number of images */
+    animation: 15s carousel infinite linear;
+}
+.footerLogo{
+    /* Adjust width according to the total width of images */
+    width: calc(400px * 10);
+}
+
+
+/* mobile css */
+
+@media screen and (max-width: 750px) {
+
+    .infoContainer{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footerLeft{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footerLinks{
+        width: auto;
+    }
+
+    .footerInfo{
+        width: 100%;
+        text-align: left;
+        margin-top: 50px;
+    }
+
+    .icon{
+        margin: 0 20px 0 0;
+    }
+
+}

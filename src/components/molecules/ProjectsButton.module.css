@@ -1,0 +1,15 @@
+.link{
+    text-decoration: none;
+    color: #cc2020;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.arrowIcon{
+    transform: rotate(45deg);
+    width: 25px;
+    height: 25px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+    color: #cc2020
+}
