@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './morild.module.css'
 import Image from 'next/image'
-import mLogo from '/morildlogo.png'
-import phoneMock from '/Morild IG Mock.png'
+import mLogo from 'public/morildlogo.png'
+import phoneMock from 'public/Morild IG Mock.png'
 import Link from 'next/link'
-import poster from '/morild mockup.png'
+import poster from 'public/morild mockup.png'
 
 export default function Morild() {
   return (

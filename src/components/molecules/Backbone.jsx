@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './Backbone.module.css'
 import Image from 'next/image'
-import BBlogo from '/public/backbone-logo.png'
-import phoneMock from '/public/Backbone IG Mock.png'
+import BBlogo from 'public/backbone-logo.png'
+import phoneMock from 'public/Backbone IG Mock.png'
 import Link from 'next/link'
-import business from '/public/backbone business card.jpg'
+import business from 'public/backbone business card.jpg'
 
 export default function Backbone() {
   return (
