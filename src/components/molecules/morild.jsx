@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './morild.module.css'
 import Image from 'next/image'
-import mLogo from 'public/morildlogo.png'
+// import mLogo from 'public/morildlogo.png'
 import phoneMock from 'public/Morild IG Mock.png'
 import Link from 'next/link'
 import poster from 'public/morild mockup.png'
@@ -11,7 +11,7 @@ export default function Morild() {
     <div className={styles.container}>
         <div className={styles.hero} style={{backgroundSize: 'cover', backgroundImage: 'url(/morild.jpg)'}}>
             <div className={styles.gradient}>
-                <Image src={mLogo} alt="/" width={500} className={styles.heroImg}/>
+                <Image src="/morildlogo.png"  alt="/" width={500} className={styles.heroImg}/>
                 <p className={styles.heroInfo}>An artist who paints neo-expressionism with focus on the provocative tabu subjects in society.</p>
                 <h5 className={styles.categoryText}>CATEGORY</h5>
 

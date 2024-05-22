@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Bouyee.module.css'
 import Image from 'next/image'
-import bouyeeLogo from 'public/bouyeelogo.png'
+// import bouyeeLogo from 'public/bouyeelogo.png'
 import phoneMock from 'public/bouyeeMock.png'
 import Link from 'next/link'
 import one from 'public/1.jpg'
@@ -11,7 +11,7 @@ export default function MoonByM() {
     <div className={styles.container}>
         <div className={styles.hero} style={{backgroundSize: 'cover', backgroundImage: 'url(/bouyeeHero.jpg)', backgroundPosition: 'center'}}>
             <div className={styles.gradient}>
-                <Image src={bouyeeLogo} alt="/" width={500} className={styles.heroImg}/>
+                <Image src="/bouyeelogo.png" alt="/" width={500} className={styles.heroImg}/>
                 <p className={styles.heroInfo}>Inspiring women to become their best self. Elevated pieces for an elevated everyday look</p>
                 <h5 className={styles.categoryText}>CATEGORY</h5>
 
