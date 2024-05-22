@@ -40,7 +40,7 @@ export default function AboutCards() {
                 </div>
 
                 <div className={styles.rightSide}>
-                    <Image src={hannah} alt='/' width={380}/>
+                    <Image src={hannah} alt='/' width={380} className={styles.hannah}/>
                 </div>
             </section>
         </div>
@@ -48,7 +48,7 @@ export default function AboutCards() {
         <div className={styles.cardContainer}>
             <section className={styles.section} id={styles.three}>
                 <div className={styles.rightSide}>
-                    <Image src={clara} alt='/' width={380}/>
+                    <Image src={clara} alt='/' width={380} className={styles.clara}/>
                 </div>
 
                 <div className={styles.ourJobInfo}>

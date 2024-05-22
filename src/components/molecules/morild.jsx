@@ -11,7 +11,7 @@ export default function Morild() {
     <div className={styles.container}>
         <div className={styles.hero} style={{backgroundSize: 'cover', backgroundImage: 'url(/morild.jpg)'}}>
             <div className={styles.gradient}>
-                <Image src="/morildlogo.png"  alt="/" width={500} className={styles.heroImg}/>
+                <Image src="/morildlogo.png"  alt="/" width={500} height={150}className={styles.heroImg}/>
                 <p className={styles.heroInfo}>An artist who paints neo-expressionism with focus on the provocative tabu subjects in society.</p>
                 <h5 className={styles.categoryText}>CATEGORY</h5>
 

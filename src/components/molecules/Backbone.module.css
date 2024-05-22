@@ -152,4 +152,9 @@
     .igText{
         margin: 0 50px;
     }
+
+    .phMock{
+        width: 100%;
+        height: auto;
+    }
 }

@@ -29,7 +29,7 @@
 .ourJobInfo{
     font-family: monospace;
     font-size: 45px;
-    margin: 0 0 0 50px;
+    margin: 0 0px 0 50px;
     width: 50%;
 }
 
@@ -91,20 +91,25 @@
     }
 
     .ourJobInfo{
-        width: 100%;
+        width: 100%; 
+        margin: 0; 
     }
 
     .headline{
-        width: 100%;
+        width: 60%;
         font-size: 30px;
+        padding: 0;
     }
 
     .rightSide{
-        width: 100%;
+        width: 99%;
+        margin: 20px;
+        padding: 0;
     }
 
     .p{
         font-size: 16px;
+
     }
 
     .categories{
@@ -122,5 +127,10 @@
     .img{
         width: 200%;
         height: 200%;
+    }
+
+    .hannah, .clara{
+        width: 100%;
+        height: auto;
     }
 }
