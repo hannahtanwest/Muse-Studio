@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './Bouyee.module.css'
 import Image from 'next/image'
-import bouyeeLogo from '/public/bouyeelogo.png'
-import phoneMock from '/public/bouyeeMock.png'
+import bouyeeLogo from '/bouyeelogo.png'
+import phoneMock from '/bouyeeMock.png'
 import Link from 'next/link'
-import one from '/public/1.jpg'
+import one from '/1.jpg'
 
 export default function MoonByM() {
   return (
