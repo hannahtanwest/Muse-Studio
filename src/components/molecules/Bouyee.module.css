@@ -154,4 +154,9 @@
     .infoHeadline{
         font-size: 30px;
     }
+
+    .phMock{
+        width: 100%;
+        height: auto;
+    }
 }
