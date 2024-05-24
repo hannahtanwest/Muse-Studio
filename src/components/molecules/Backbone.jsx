@@ -11,7 +11,7 @@ export default function Backbone() {
     <div className={styles.container}>
         <div className={styles.hero} style={{backgroundSize: 'cover', backgroundImage: 'url(/backbone.jpg)', backgroundPosition: 'center'}}>
             <div className={styles.gradient}>
-                <Image src={BBlogo} alt="/" width={500} className={styles.heroImg}/>
+                <Image src={BBlogo} alt="Backbone logo" width={500} className={styles.heroImg}/>
                 <p className={styles.heroInfo}>Backbone is a tight and swingy quartet that, with humor and personality, plays Blues/Soul.</p>
                 <h5 className={styles.categoryText}>CATEGORY</h5>
 
@@ -48,7 +48,7 @@ export default function Backbone() {
 
         <div className={styles.displayTwo}>
             <div>
-                <Image src={phoneMock} className={styles.phMock} width={550}></Image>
+                <Image src={phoneMock} alt="Backbone phone mockup"className={styles.phMock} width={550}></Image>
             </div>
             <div className={styles.igText}>
                 <h1 className={styles.infoHeadline}>SEE IT FOR YOURSELF!</h1>
@@ -58,7 +58,7 @@ export default function Backbone() {
         </div>
 
         <div className={styles.displayOne}>
-            <Image src={business} className={styles.galleryMock}></Image>
+            <Image src={business} alt="business cards for backbone" className={styles.galleryMock}></Image>
         </div>
 
     </div>

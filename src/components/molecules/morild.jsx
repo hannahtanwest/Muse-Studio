@@ -11,7 +11,7 @@ export default function Morild() {
     <div className={styles.container}>
         <div className={styles.hero} style={{backgroundSize: 'cover', backgroundImage: 'url(/morild.webp)'}}>
             <div className={styles.gradient}>
-                <Image src="/Morildlogo.png"  alt="/" width={500} height={150}className={styles.heroImg}/>
+                <Image src="/Morildlogo.png"  alt="Morild Logo" width={500} height={150}className={styles.heroImg}/>
                 <p className={styles.heroInfo}>An artist who paints neo-expressionism with focus on the provocative tabu subjects in society.</p>
                 <h5 className={styles.categoryText}>CATEGORY</h5>
 
@@ -47,7 +47,7 @@ export default function Morild() {
 
         <div className={styles.displayTwo}>
             <div>
-                <Image src={phoneMock} className={styles.phMock} width={550}></Image>
+                <Image src={phoneMock} className={styles.phMock} width={550} alt="Morild SoMe Mockup"></Image>
             </div>
             <div className={styles.igText}>
                 <h1 className={styles.infoHeadline}>SEE IT FOR YOURSELF!</h1>
@@ -57,7 +57,7 @@ export default function Morild() {
         </div>
 
         <div className={styles.displayOne}>
-            <Image src={poster} className={styles.galleryMock}></Image>
+            <Image src={poster} className={styles.galleryMock} alt="Morild Gallery Mockup"></Image>
         </div>
 
     </div>

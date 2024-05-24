@@ -39,7 +39,7 @@ export default function Header() {
   return (
     <div className={`${styles.container} ${scrolled ? styles.scrolled : ''}`}>
       <Link href="./">
-        <Image src={logo} alt="/" width={150} />
+        <Image src={logo} alt="Muse Logo" width={150} />
       </Link>
 
       <div

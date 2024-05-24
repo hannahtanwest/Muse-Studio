@@ -22,11 +22,11 @@ export default function IndexCards() {
                 </div>
 
                 <div className={styles.projectImages}>
-                    <IndexPro text="BOUYEE STUDIOS" imageUrl="/bouyee.jpg" href="./bouyee-page"/>
-                    <IndexPro text="MOON BY M" imageUrl="/mbm.png" href="./mbm-page" />
-                    <IndexPro text="BACKBONE" imageUrl="bb.jpg" href="./backbone-page"/>
-                    <IndexPro text="MORILD" imageUrl="/morild.webp" href="./morild-page"/>
-                    <IndexPro text="VÆLEUR" imageUrl="/vaelur.jpg"/>
+                    <IndexPro text="BOUYEE STUDIOS" imageUrl="/bouyee.jpg" href="./bouyee-page" alt="Bouyee Studios"/>
+                    <IndexPro text="MOON BY M" imageUrl="/mbm.png" href="./mbm-page" alt="Moon By M"/>
+                    <IndexPro text="BACKBONE" imageUrl="bb.jpg" href="./backbone-page" alt="Backbone"/>
+                    <IndexPro text="MORILD" imageUrl="/morild.webp" href="./morild-page" alt="Morild Art"/>
+                    <IndexPro text="VÆLEUR" imageUrl="/vaelur.jpg" alt="Vælur"/>
                 </div>
             </section>
         </div>
@@ -40,15 +40,15 @@ export default function IndexCards() {
 
                 <div className={styles.specialties}>
                     <Link href="./wwo-content" className={styles.specialty}>
-                        <Image src={content} width={250}/>
+                        <Image src={content} width={250} alt="Content Creation"/>
                         <h5>CONTENT CREATION<IoArrowUpSharp className={styles.arrowIcon}/></h5>
                     </Link>
                     <Link href="./wwo" className={styles.specialty}>
-                        <Image src={uxMock} width={280}/>
+                        <Image src={uxMock} width={280} alt="UX"/>
                         <h5>UX<IoArrowUpSharp className={styles.arrowIcon}/></h5>
                     </Link>
                     <Link href="./wwo-web" className={styles.specialty}>
-                        <Image src={webMock} width={400}/>
+                        <Image src={webMock} width={400} alt="Web development"/>
                         <h5>WEB DEVELOPMENT<IoArrowUpSharp className={styles.arrowIcon}/></h5>
                     </Link>
                     

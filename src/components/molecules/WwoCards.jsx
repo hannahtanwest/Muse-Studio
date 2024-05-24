@@ -19,7 +19,7 @@ export default function WwoCards() {
                 </div>
 
                 <div className={styles.rightSide}>
-                    <Image src={bmock} alt='/' width={400}/>
+                    <Image src={bmock} alt='Content mockup' width={400}/>
                 </div>
             </section>
         </div>
@@ -33,7 +33,7 @@ export default function WwoCards() {
                 </div>
 
                 <div className={styles.rightSide}>
-                    <Image src={webMock} alt='/' width={500}/>
+                    <Image src={webMock} alt='Web mockup' width={500}/>
                 </div>
             </section>
         </div>
@@ -47,7 +47,7 @@ export default function WwoCards() {
                 </div>
 
                 <div className={styles.rightSide}>
-                    <Image src={uxMock} alt='/' width={500}/>
+                    <Image src={uxMock} alt='UX mockup' width={500}/>
                 </div>
             </section>
         </div>

@@ -10,7 +10,7 @@ export default function MoonByM() {
     <div className={styles.container}>
         <div className={styles.hero} style={{backgroundSize: 'cover', backgroundImage: 'url(/mbm-clean.webp)'}}>
             <div className={styles.gradient}>
-                <Image src={mbmLogo} alt="/" width={500} className={styles.heroImg}/>
+                <Image src={mbmLogo} alt="Moon By M Logo" width={500} className={styles.heroImg}/>
                 <p className={styles.heroInfo}>Inspiring women to become their best self. Elevated pieces for an elevated everyday look</p>
                 <h5 className={styles.categoryText}>CATEGORY</h5>
 
@@ -47,7 +47,7 @@ export default function MoonByM() {
 
             <div className={styles.displayTwo}>
                 <div>
-                    <video src={require('/public/mbm-video-mock.mp4')} className={styles.hero} autoPlay muted loop/>
+                    <video src={require('/public/mbm-video-mock.mp4')} className={styles.hero} autoPlay muted loop alt="SoMe video mockup"/>
                 </div>
                 <div className={styles.igText}>
                     <h1 className={styles.infoHeadline}>SEE IT FOR YOURSELF!</h1>

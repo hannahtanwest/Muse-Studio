@@ -15,8 +15,8 @@ export default function IndexHeader() {
         <Link href="./cases" className={styles.link}>VIEW CASES <IoArrowUpSharp className={styles.arrowIcon}/></Link>
         <Link href="./contact" className={styles.link}>LET'S START A PROJECT <IoArrowUpSharp className={styles.arrowIcon}/></Link>
       </div>
-      <video src={require('/public/indexHero.mov')} className={styles.hero} autoPlay muted loop/>
-      <video src={require('/public/heroMobile.mov')} className={styles.heroMobile} autoPlay muted loop/>
+      <video src={require('/public/indexHero.mov')} className={styles.hero} autoPlay muted loop alt="Hero"/>
+      <video src={require('/public/heroMobile.mov')} className={styles.heroMobile} autoPlay muted loop alt="Hero"/>
 
     </div>
   )

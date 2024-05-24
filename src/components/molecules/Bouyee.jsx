@@ -11,7 +11,7 @@ export default function MoonByM() {
     <div className={styles.container}>
         <div className={styles.hero} style={{backgroundSize: 'cover', backgroundImage: 'url(/bouyeeHero.webp)', backgroundPosition: 'center'}}>
             <div className={styles.gradient}>
-                <Image src="/bouyeelogo.webp" alt="/" width={500} height={150} className={styles.heroImg}/>
+                <Image src="/bouyeelogo.webp" alt="Bouyee logo" width={500} height={150} className={styles.heroImg}/>
                 <p className={styles.heroInfo}>Inspiring women to become their best self. Elevated pieces for an elevated everyday look</p>
                 <h5 className={styles.categoryText}>CATEGORY</h5>
 
@@ -45,12 +45,12 @@ export default function MoonByM() {
         <div className={styles.display} style={{backgroundSize: 'cover', backgroundImage: 'url(hero.jpg)', backgroundAttachment: 'fixed', backgroundPosition: 'center'}}></div>
 
         <div className={styles.displayOne}>
-            <Image src={one} className={styles.galleryMock}></Image>
+            <Image src={one} alt="gallery mockup of content" className={styles.galleryMock}></Image>
         </div>
 
         <div className={styles.displayTwo}>
             <div>
-                <Image src={phoneMock} className={styles.phMock} width={550}></Image>
+                <Image src={phoneMock} alt="Bouyee SoMe mockup" className={styles.phMock} width={550}></Image>
             </div>
             <div className={styles.igText}>
                 <h1 className={styles.infoHeadline}>SEE IT FOR YOURSELF!</h1>
