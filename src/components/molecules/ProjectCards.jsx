@@ -7,7 +7,7 @@ export default function ProjectCards() {
   return (
     <div className={styles.container}>
         <div className={styles.cardContainer}>
-            <Link className={styles.section} id="one" href="./bouyee-page" style={{backgroundSize: 'cover', backgroundImage: 'url(/bouyeeHero.jpg)', backgroundPosition: 'center'}}>
+            <Link className={styles.section} id="one" href="./bouyee-page" style={{backgroundSize: 'cover', backgroundImage: 'url(/bouyeeHero.webp)', backgroundPosition: 'center'}}>
                 
                     <div className={styles.headline}>
                         <h1>BOUYEE STUDIO</h1>
