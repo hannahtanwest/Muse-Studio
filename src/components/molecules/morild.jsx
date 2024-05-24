@@ -9,9 +9,9 @@ import poster from 'public/morild mockup.png'
 export default function Morild() {
   return (
     <div className={styles.container}>
-        <div className={styles.hero} style={{backgroundSize: 'cover', backgroundImage: 'url(/morild.jpg)'}}>
+        <div className={styles.hero} style={{backgroundSize: 'cover', backgroundImage: 'url(/morild.webp)'}}>
             <div className={styles.gradient}>
-                <Image src="/morildlogo.png"  alt="/" width={500} height={150}className={styles.heroImg}/>
+                <Image src="/Morildlogo.png"  alt="/" width={500} height={150}className={styles.heroImg}/>
                 <p className={styles.heroInfo}>An artist who paints neo-expressionism with focus on the provocative tabu subjects in society.</p>
                 <h5 className={styles.categoryText}>CATEGORY</h5>
 
@@ -42,7 +42,7 @@ export default function Morild() {
 
         </div>
 
-        <div className={styles.display} style={{backgroundSize: 'cover', backgroundImage: 'url(morildBG.jpg)', backgroundAttachment: 'fixed', backgroundPosition: 'center'}}></div>
+        <div className={styles.display} style={{backgroundSize: 'cover', backgroundImage: 'url(morildBG.webp)', backgroundAttachment: 'fixed', backgroundPosition: 'center'}}></div>
 
 
         <div className={styles.displayTwo}>

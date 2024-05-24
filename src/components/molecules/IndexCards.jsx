@@ -25,7 +25,7 @@ export default function IndexCards() {
                     <IndexPro text="BOUYEE STUDIOS" imageUrl="/bouyee.jpg" href="./bouyee-page"/>
                     <IndexPro text="MOON BY M" imageUrl="/mbm.png" href="./mbm-page" />
                     <IndexPro text="BACKBONE" imageUrl="bb.jpg" href="./backbone-page"/>
-                    <IndexPro text="MORILD" imageUrl="/morild.jpg" href="./morild-page"/>
+                    <IndexPro text="MORILD" imageUrl="/morild.webp" href="./morild-page"/>
                     <IndexPro text="VÆLEUR" imageUrl="/vaelur.jpg"/>
                 </div>
             </section>

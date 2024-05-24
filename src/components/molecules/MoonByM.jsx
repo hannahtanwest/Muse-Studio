@@ -8,7 +8,7 @@ import one from '/public/1.jpg'
 export default function MoonByM() {
   return (
     <div className={styles.container}>
-        <div className={styles.hero} style={{backgroundSize: 'cover', backgroundImage: 'url(/mbm-clean.jpg)'}}>
+        <div className={styles.hero} style={{backgroundSize: 'cover', backgroundImage: 'url(/mbm-clean.webp)'}}>
             <div className={styles.gradient}>
                 <Image src={mbmLogo} alt="/" width={500} className={styles.heroImg}/>
                 <p className={styles.heroInfo}>Inspiring women to become their best self. Elevated pieces for an elevated everyday look</p>
