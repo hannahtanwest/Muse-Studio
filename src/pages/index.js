@@ -1,9 +1,22 @@
 import Head from "next/head";
 import IndexCards from "@/components/molecules/IndexCards";
 import IndexHeader from "@/components/molecules/IndexHeader";
-
+import Loader from "@/components/molecules/Loader";
+import { useState, useEffect } from "react";
 
 export default function Home() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setIsLoading(true);
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 4500);
+
+    // Cleanup the timer when the component unmounts
+    return () => clearTimeout(timer);
+  }, []); // Add an empty dependency array
+
   return (
     <>
       <Head>
@@ -13,8 +26,14 @@ export default function Home() {
         <link rel="icon" type="image/png" href="/muse favicon.png" />
       </Head>
       <main>
-        <IndexHeader/>
-        <IndexCards/>
+        {isLoading ? (
+          <Loader />
+        ) : (
+          <>
+            <IndexHeader />
+            <IndexCards />
+          </>
+        )}
       </main>
     </>
   );
