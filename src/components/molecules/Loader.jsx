@@ -6,7 +6,7 @@ const Loader = () => {
   return (
     <div className="video-loader">
       <video autoPlay loop muted className={styles.loader}>
-        <source src="/loader.mp4" type="video/mp4" />
+        <source src={require('/public/loader.mp4')} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
