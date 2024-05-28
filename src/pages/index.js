@@ -8,13 +8,22 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    setIsLoading(true);
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 4500);
 
-    // Cleanup the timer when the component unmounts
-    return () => clearTimeout(timer);
+    // Check if the loading screen has been shown before
+    const hasLoadedBefore = localStorage.getItem('hasLoadedBefore');
+
+    if (!hasLoadedBefore) {
+      setIsLoading(true);
+      const timer = setTimeout(() => {
+        setIsLoading(false);
+        localStorage.setItem('hasLoadedBefore', 'true');
+      }, 8000);
+
+      // Cleanup the timer when the component unmounts
+      return () => clearTimeout(timer);
+    } else {
+      setIsLoading(false);
+    }
   }, []); // Add an empty dependency array
 
   return (
