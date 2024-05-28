@@ -20,16 +20,16 @@
     flex-direction: column;
     width: 50%;    
     justify-content: flex-end;
+    padding-left: 100px;
 }
 
 
 .footerLinks{
+    display: flex;
     text-decoration: none;
     font-family: monospace;
-    font-weight: 600;
     color: black;
     margin-right: 50px;
-    font-size: 1.5rem;
     color: #CA2020;
 }
 
@@ -45,7 +45,28 @@
     width: 45px;
     height: 45px;
     color: #CA2020;
-    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 40%;
+    justify-content: flex-end;
+}
+
+.newsletterInput{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.newsletterButton{
+    width: 100%;
+    background-color: #CA2020;
+    margin-top: 10px;
+    font-family: monospace;
 }
 
 .footerInfo{
@@ -53,15 +74,16 @@
     flex-direction: column;
     width: 50%;
     font-family: monospace;
-    font-size: 1.5rem;
-    text-align: right;
-    font-weight: 600;
+    text-align: left;
     justify-content: flex-end;
 }
 
-.footerInfo p{
+.p{
     margin: 0;
     color: #CA2020;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
 }
 
 /* logo loop carousel */
