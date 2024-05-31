@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+
 .container{
     display: flex;
     justify-content: center;
@@ -27,7 +30,7 @@
 
 .headline{
     color: #CA2020;
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     font-size: 4rem;
     font-weight: 900;
 }
@@ -49,7 +52,7 @@
    
     text-decoration: none;
     color: #fff;
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     font-weight: 600;
     color: #CA2020;
 }

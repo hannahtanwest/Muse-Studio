@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap'); 
+
 .main{
     margin-top: 50vh;
 }
@@ -27,14 +29,14 @@
 }
 
 .ourJobInfo{
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     font-size: 45px;
     margin: 0 0px 0 50px;
     width: 50%;
 }
 
 .headline{
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     font-size: 45px;
     width: 50%;
 }
@@ -52,13 +54,13 @@
 }
 
 .p{
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     font-size: 16px;
     width: 90%;
 }
 
 .pCursive{
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     font-size: 16px;
     font-style: italic;
 }

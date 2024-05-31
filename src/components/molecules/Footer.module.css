@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap'); 
+
 .container{
     display: flex;
     width: 100%;
@@ -27,7 +29,7 @@
 .footerLinks{
     display: flex;
     text-decoration: none;
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     color: black;
     margin-right: 50px;
     color: #CA2020;
@@ -66,14 +68,14 @@
     width: 100%;
     background-color: #CA2020;
     margin-top: 10px;
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
 }
 
 .footerInfo{
     display: flex;
     flex-direction: column;
     width: 50%;
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     text-align: left;
     justify-content: flex-end;
 }
@@ -82,7 +84,7 @@
     margin: 0;
     color: #CA2020;
     font-size: 20px;
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     font-weight: 600;
 }
 

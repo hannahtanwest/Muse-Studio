@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap'); 
+
 .hero{
     display: flex;
     flex-direction: column;
@@ -16,14 +18,14 @@
 
 .heroInfo{
     width: 30%;
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     margin-top: 20px;
     font-size: 16px;
 }
 
 .categoryText{
     font-size: 20px;
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     margin-bottom: -5px;
     color: #000;
     font-size: 16px;
@@ -41,7 +43,7 @@
     border: 1px solid #000;
     color: #000;
     border-radius: 30px;
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
 }
 
 .infoBox{
@@ -64,12 +66,12 @@
 
 
 .infoHeadline{
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     font-size: 45px;
 }
 
 .infoText{
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     font-size: 16px;
     margin-right: 20px;
 }
@@ -98,7 +100,7 @@
     border: 1px solid black;
     padding: 10px 50px;
     text-decoration: none;
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     color: black;
 }
 
@@ -110,7 +112,7 @@
 }
 
 .infoTextIg{
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     width: 70%;
     font-size: 16px;
 }

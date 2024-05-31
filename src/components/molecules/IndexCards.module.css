@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap'); 
+
 .main{
     margin-top: 50vh;
 }
@@ -31,7 +33,7 @@
 }
 
 .headline{
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     font-size: 28px;
     text-align: center;
     height: fit-content;
@@ -48,12 +50,12 @@
 }
 
 .p{
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     font-size: 16px;
 }
 
 .pCursive{
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     font-size: 16px;
     font-style: italic;
 }
@@ -73,7 +75,7 @@
     align-items: center;
     text-decoration: none;
     color: #CA2020;
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
 }
 
 
@@ -84,7 +86,7 @@
 }
 
 .specialty h5{
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     font-size: 20px;
 }
 
@@ -95,7 +97,7 @@
     align-items: center;
     text-decoration: none;
     color: #CA2020;
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
  }
  
 .hwwImgOne, .hwwImgTwo, .hwwImgThree {
@@ -143,7 +145,7 @@
 .input{
     margin-bottom: 20px;
     width: 80%;
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
 }
 
 .textInput{
@@ -154,7 +156,7 @@
 
 .info{
     width: 50%;
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     
 }
 
@@ -165,7 +167,7 @@
 
 .request{
     width: 50%;
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
 }
 
 .button{
@@ -179,7 +181,7 @@
 .buttonText{
     font-size: 20px;
     text-decoration: none;
-    font-family: monospace;
+    font-family: "Azeret Mono", monospace;
     color: #CA2020;
 }
 
