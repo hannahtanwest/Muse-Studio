@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.gradient{
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255,0,0,0), rgba(255,0,0,0));
+    height: 100%;
+    padding: 100px;
+}
+
+.heroImg{
+    margin-top: 40px;
+    margin-left: -70px;
+}
+
+.heroInfo{
+    width: 30%;
+    font-family: "Azeret Mono", monospace;
+    margin-top: -20px;
+    font-size: 16px;
+}
+
+.categoryText{
+    font-size: 20px;
+    font-family: "Azeret Mono", monospace;
+    margin-bottom: -5px;
+    color: #000;
+    font-size: 16px;
+}
+
+.categories{
+    display: flex;
+    flex-direction: row;
+}
+
+.category{
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 0 20px;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 30px;
+    font-family: "Azeret Mono", monospace;
+}
+
+.infoBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.rightSide{
+    width: 100%;
+    padding: 50px;
+}
+
+.leftSide{
+    width: 100%;
+    padding: 50px;
+}
+
+
+.infoHeadline{
+    font-family: "Azeret Mono", monospace;
+    font-size: 45px;
+}
+
+.infoText{
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+/* display */
+
+.display{
+    width: 100%;
+    height: 80vh;
+}
+
+.galleryMock{
+    width: 100%;
+    height: 100%;
+}
+
+.displayTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #fff;
+}
+
+.igButton{
+    border: 1px solid black;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "Azeret Mono", monospace;
+    color: black;
+}
+
+.igButton:hover{
+    border: 1px solid #CA2020;
+    color: #CA2020;
+    padding: 10px 100px;
+    transition: 0.2s ease-in-out;
+}
+
+.infoTextIg{
+    font-family: "Azeret Mono", monospace;
+    width: 70%;
+    font-size: 16px;
+}
+
+/* mobile css */
+
+@media screen and (max-width: 750px) {
+
+    .gradient{
+        background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255,0,0,0));
+        padding: 100px 50px;
+    }
+
+    .heroImg{
+        width: 100%;
+        height: auto;
+    }
+
+    .heroInfo{
+        width: 80%;
+    }
+
+    .categories{
+        flex-wrap: wrap;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .category{
+        font-size: 16px;
+        padding: auto;
+        margin-top: 0;
+    }
+
+    .infoBox{
+        flex-direction: column;
+    }
+
+    .infoHeadline{
+        font-size: 30px;
+    }
+
+    .rightSide{
+        padding: 25px 50px 0;
+    }
+
+    .displayTwo{
+        flex-direction: column;
+        height: 130vh;
+    }
+
+    .igText{
+        margin: 0 50px;
+    }
+
+    .phMock{
+        width: 100%;
+        height: auto;
+    }
+}

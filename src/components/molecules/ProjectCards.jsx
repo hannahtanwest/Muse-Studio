@@ -7,6 +7,15 @@ export default function ProjectCards() {
   return (
     <div className={styles.container}>
         <div className={styles.cardContainer}>
+            <Link className={styles.section} alt="Bouyee project imgage" id="one" href="./vaeleur-page" style={{backgroundSize: 'cover', backgroundImage: 'url(/VæleurHero.jpg)'}}>
+                
+                    <div className={styles.headline}>
+                        <h1>VÆLEUR STUDIO</h1>
+                    </div>
+            </Link>
+        </div>
+
+        <div className={styles.cardContainer}>
             <Link className={styles.section} alt="Bouyee project imgage" id="one" href="./bouyee-page" style={{backgroundSize: 'cover', backgroundImage: 'url(/bouyeeHero.webp)', backgroundPosition: 'center'}}>
                 
                     <div className={styles.headline}>
