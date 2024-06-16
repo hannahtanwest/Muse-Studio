@@ -36,7 +36,7 @@ export default function Morild() {
                     THE SOLUTION
                 </h1>
                 <p className={styles.infoText}>
-                Michael Morild, the talented artist, is on the lookout for someone to handle his social media since he's all about the art and needs a hand with the online side of things. He didn't have many demands on how things were shot and run as long as it mirrored his art. 
+                Whenever Morild needs to showcase a new painting, an art gallery opening or his collab with Tri-Art he connects with us and we make sure to get it out to his network. Morild isn't the biggest SoMe buff, so just getting his work out there is more than enough.
                 </p>
             </div>
 
